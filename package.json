@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "@valtown/add-last-updated",
+  "version": "1.0.3",
+  "description": "Add explicit lastUpdated times to a Astro Starlight project",
+  "main": "index.js",
+  "keywords": [
+    "astro",
+    "starlight",
+    "markdown",
+    "frontmatter"
+  ],
+  "repository": "github:val-town/add-last-updated",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "globby": "^14.0.0",
+    "meow": "^13.1.0",
+    "to-vfile": "^8.0.0",
+    "vfile-matter": "^5.0.0",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
