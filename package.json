@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@valtown/add-last-updated",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Add explicit lastUpdated times to a Astro Starlight project",
   "main": "index.js",
   "keywords": [
