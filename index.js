@@ -56,7 +56,7 @@ for (let path of files) {
     file.value =
       "---\n" +
       stringify(file.data.matter) +
-      "---\n\n" +
+      "---\n" +
       file.value.toString("utf8");
     console.log(`✅ ${file.path}`);
     write(file);
