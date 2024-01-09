@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-/**
- * @typedef {import('mdast').Root} Root
- */
 import { stringify } from "yaml";
 import { matter } from "vfile-matter";
 import { read, write } from "to-vfile";
